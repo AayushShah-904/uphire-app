@@ -9,12 +9,11 @@
 [![Vite](https://img.shields.io/badge/Vite-5.0-646CFF?style=flat-square&logo=vite&logoColor=white)](https://vitejs.dev)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind-3.4-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)](https://tailwindcss.com)
 [![Zustand](https://img.shields.io/badge/Zustand-4.x-FF6B00?style=flat-square)](https://zustand-demo.pmnd.rs)
-[![Docker](https://img.shields.io/badge/Docker-Ready-2496ED?style=flat-square&logo=docker&logoColor=white)](https://docker.com)
 [![Netlify](https://img.shields.io/badge/Deployed-Netlify-00C7B7?style=flat-square&logo=netlify&logoColor=white)](https://netlify.com)
 
 A responsive, production-ready HR dashboard for managing internship applicants — built with React, Vite, and Tailwind CSS.
 
-[🌐 Live Demo](https://uphire.netlify.app/login) &nbsp;·&nbsp; [🐳 Docker](#docker-deployment) &nbsp;·&nbsp; [📖 Docs](#project-structure)
+[🌐 Live Demo](https://candidate-dashboard.netlify.app) &nbsp;·&nbsp; [📖 Docs](#project-structure)
 
 </div>
 
@@ -29,7 +28,7 @@ The Candidate Management Dashboard is a single-page application that allows HR t
 | Field    | Value               |
 |----------|---------------------|
 | Email    | `admin@upteky.com`  |
-| Password | `upteky2025`        |
+| Password | `upteky2026`        |
 
 ---
 
@@ -68,8 +67,7 @@ The Candidate Management Dashboard is a single-page application that allows HR t
 | HTTP Client       | Axios                               |
 | Icons             | Lucide React                        |
 | Font              | Inter (Google Fonts)                |
-| Containerization  | Docker (multi-stage) + Nginx        |
-| Deployment        | Netlify / Docker                    |
+| Deployment        | Netlify                             |
 
 ---
 
@@ -106,22 +104,6 @@ npm run dev       # Start dev server with hot module replacement
 npm run build     # Production build
 npm run preview   # Preview the production build locally
 ```
-
----
-
-## Docker Deployment
-
-```bash
-# Build the image
-docker build -t candidate-management-dashboard .
-
-# Run the container
-docker run -p 3000:80 candidate-management-dashboard
-```
-
-Open **http://localhost:3000**
-
-The Dockerfile uses a **multi-stage build** — Node 20 Alpine compiles the Vite app, then Nginx Alpine serves the static output. Final image size is approximately 25MB.
 
 ---
 
@@ -197,7 +179,7 @@ Error handling covers network timeouts (10s), failed requests (retry banner), an
 | Functionality                 | 25%    | All 5 core features + auth, dark mode, pagination, animations |
 | API Integration               | 15%    | DummyJSON + Axios, data transformation, loading skeletons, error states |
 | Validation & Error Handling   | 10%    | Zod schemas, React Hook Form, inline errors, toast notifications |
-| GitHub / Deployment Quality   | 10%    | Docker multi-stage build, Netlify, clean commits, this README |
+| GitHub / Deployment Quality   | 10%    | Netlify deployment, clean commits, this README |
 
 ---
 

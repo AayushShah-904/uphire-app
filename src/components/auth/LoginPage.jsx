@@ -165,7 +165,7 @@ function LoginPage() {
             <p className="text-xs font-medium text-slate-500 dark:text-slate-400 mb-2">Demo credentials</p>
             <div className="space-y-1">
               <p className="text-xs font-mono text-slate-700 dark:text-slate-300">admin@upteky.com</p>
-              <p className="text-xs font-mono text-slate-700 dark:text-slate-300">upteky2025</p>
+              <p className="text-xs font-mono text-slate-700 dark:text-slate-300">upteky2026</p>
             </div>
           </div>
         </motion.div>

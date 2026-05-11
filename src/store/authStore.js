@@ -2,7 +2,7 @@ import { create } from 'zustand';
 import { persist } from 'zustand/middleware';
 
 const VALID_EMAIL = 'admin@upteky.com';
-const VALID_PASSWORD = 'upteky2025';
+const VALID_PASSWORD = 'upteky2026';
 
 const useAuthStore = create(
   persist(
