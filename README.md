@@ -14,7 +14,7 @@
 
 A responsive, production-ready HR dashboard for managing internship applicants — built with React, Vite, and Tailwind CSS.
 
-[🌐 Live Demo](https://candidate-dashboard.netlify.app) &nbsp;·&nbsp; [🐳 Docker](#docker-deployment) &nbsp;·&nbsp; [📖 Docs](#project-structure)
+[🌐 Live Demo](https://uphire.netlify.app/login) &nbsp;·&nbsp; [🐳 Docker](#docker-deployment) &nbsp;·&nbsp; [📖 Docs](#project-structure)
 
 </div>
 
